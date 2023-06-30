@@ -224,22 +224,6 @@ img {
     color: var(--first-color);
 }
 
-.home__social {
-    display: flex;
-    flex-direction: column;
-}
-
-.home__social-icon {
-    width: max-content;
-    margin-bottom: var(--mb-2);
-    font-size: 1.5rem;
-    color: var(--second-color);
-}
-
-.home__social-icon:hover {
-    color: var(--first-color);
-}
-
 .home__img {
     position: absolute;
     right: 0;
@@ -283,10 +267,17 @@ img {
 /* PROFISSIONAL EXPERIENCES */
 #experiences {
     display: flex;
+    align-items: center;
     justify-content: space-around;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 100vw;
     margin: auto;
+    padding: 3rem;
+    background-color: #E5E5E5;
+}
+
+#experiences img {
+    max-width: 500px;
 }
 
 /* WORK */
@@ -332,6 +323,17 @@ img {
     font-size: var(--normal-font-size);
     cursor: pointer;
     margin-left: auto;
+}
+
+.contact_social-icon {
+    width: max-content;
+    margin-bottom: var(--mb-2);
+    font-size: 1.5rem;
+    color: black;
+}
+
+.contact__social-icon:hover {
+    color: var(--first-color);
 }
 
 /* FOOTER */
@@ -405,24 +407,20 @@ img {
     }
 
     .home__data {
-        align-self: flex-end;
+        align-self: center;
     }
 
-    .home__social {
+    .contact__social {
         padding-top: 0;
-        padding-bottom: 2.5rem;
+        padding: 2rem 0 2rem;
         flex-direction: row;
-        align-self: flex-end;
+        align-self: center;
     }
 
-    .home__social-icon {
+    .contact__social-icon {
         margin-bottom: 0;
         margin-right: var(--mb-4);
-    }
-
-    .home__img {
-        width: 475px;
-        bottom: 30%;
+        font-size: 2rem;
     }
 
     .home__img img {
@@ -458,7 +456,15 @@ img {
     }
 
     .contact__container {
-        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #E5E5E5;
+    }
+
+    .contact__social {
+        display: flex;
+        flex-direction: row;
     }
 }
 
@@ -468,7 +474,5 @@ img {
         margin-right: auto;
     }
 
-    .home__img {
-        right: 10%;
-    }
+
 }
