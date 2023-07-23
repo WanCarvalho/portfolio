@@ -277,7 +277,7 @@ img {
 }
 
 #experiences img {
-    max-width: 500px;
+    width: 500px;
 }
 
 /* WORK */
@@ -305,6 +305,10 @@ img {
 }
 
 /* CONTACT */
+.contact p {
+    text-align: center;
+}
+
 .contact__input {
     width: 100%;
     font-size: var(--normal-font-size);
