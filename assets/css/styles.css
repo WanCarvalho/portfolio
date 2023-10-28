@@ -444,6 +444,7 @@ img {
 
     .about__img img {
         width: 300px;
+        border-radius: 5%;
     }
 
     .work__container {
