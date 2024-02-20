@@ -366,6 +366,10 @@ img {
     .contact p {
         text-align: center;
     }
+
+    .contact__email {
+        font-size: 13px;
+    }
 }
 
 @media screen and (min-width: 768px) {
