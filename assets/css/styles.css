@@ -355,6 +355,10 @@ img {
         transition: .5s;
     }
 
+    .show {
+        right: 0;
+    }
+
     .contact {
         display: flex;
         flex-direction: column;
