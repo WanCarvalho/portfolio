@@ -13,6 +13,16 @@ let data = [
     {
         "funcao": "Desenvolvedor Backend PHP",
         "modalidade": "Meio Período",
+        "companhia": "InoDev Tecnologia",
+        "local": "Natal, RN",
+        "modalidade_trabalho": "Híbrido",
+        "data_inicio": "Julho de 2024",
+        "data_fim": "Agosto de 2024",
+        "path_img_empresa": "./assets/img/empresas/inodev_empresa.jpg",
+    },
+    {
+        "funcao": "Desenvolvedor Backend PHP",
+        "modalidade": "Meio Período",
         "companhia": "Metrópole Digital / Sesap-RN",
         "local": "Natal, RN",
         "modalidade_trabalho": "Remoto",
@@ -20,16 +30,6 @@ let data = [
         "data_fim": "Outubro de 2024",
         "path_img_empresa": "./assets/img/empresas/metropoledigital_logo.jpg",
         "url_site_empresa": "https://www.metropoledigital.ufrn.br/portal/",
-    },
-    {
-        "funcao": "Desenvolvedor Backend PHP",
-        "modalidade": "Meio Período",
-        "companhia": "InoDev Tecnologia",
-        "local": "Natal, RN",
-        "modalidade_trabalho": "Híbrido",
-        "data_inicio": "Julho de 2024",
-        "data_fim": "Agosto de 2024",
-        "path_img_empresa": "./assets/img/empresas/inodev_empresa.jpg",
     }
 ];
 
@@ -70,7 +70,7 @@ function criarCard(info) {
 }
 
 // Função para renderizar todos os cards
-function renderizarCards() {
+function renderizarCardsExperiencias() {
     const container = document.getElementById('card-experiencias-container');
     data.forEach(info => {
         const card = criarCard(info);
@@ -79,4 +79,4 @@ function renderizarCards() {
 }
 
 // Chama a função para carregar os dados e renderizar os cards
-window.onload = renderizarCards;
+renderizarCardsExperiencias();
