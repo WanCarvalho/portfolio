@@ -71,7 +71,7 @@ function criarCard(info) {
 
 // Função para renderizar todos os cards
 function renderizarCards() {
-    const container = document.getElementById('card-container');
+    const container = document.getElementById('card-experiencias-container');
     data.forEach(info => {
         const card = criarCard(info);
         container.innerHTML += card; // Adiciona o card no container
