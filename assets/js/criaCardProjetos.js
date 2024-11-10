@@ -18,7 +18,8 @@ let dataProjetos = [
         "descricao": "Landing-page para apresentar app de par romântico para PET.",
         "companhia": "Projeto Pessoal",
         "tecnologias": ["HTML", "CSS", "JavaScript"],
-        "imagem": "./assets/img/post tindog.png"
+        "imagem": "./assets/img/post tindog.png",
+        "link": "https://wancarvalho.github.io/tin-dog/"
     }
 ];
 
@@ -34,6 +35,11 @@ function criarCard(info) {
         `<span class="badge text-bg-secondary">${tecnologia}</span>`
     ).join(' ');
 
+    // Condicional para exibir o título como link, se o link existir
+    const tituloHtml = info.link ? 
+        `<a href="${info.link}" target="_blank" class="card-title">${info.titulo}</a>` : 
+        `<h5 class="card-title">${info.titulo}</h5>`;
+
     // Criar o HTML do card
     const cardHtml = `
     <div class="col mb-4">
@@ -43,7 +49,7 @@ function criarCard(info) {
                 ${tecnologiasHtml}
             </div>
             <div class="card-body">
-                <h5 class="card-title">${info.titulo}</h5>
+                ${tituloHtml}
                 <p class="card-text">${info.descricao}</p>
             </div>
             <div class="card-footer">
