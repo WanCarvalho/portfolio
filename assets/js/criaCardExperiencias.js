@@ -1,7 +1,7 @@
 let data = [
     {
         "funcao": "Desenvolvedor Backend PHP",
-        "modalidade": "Estágio",
+        "modalidade": "Tempo Integral",
         "companhia": "Maxmeio Tecnologia",
         "local": "Natal, RN",
         "modalidade_trabalho": "Presencial",
