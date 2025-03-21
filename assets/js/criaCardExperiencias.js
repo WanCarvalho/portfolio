@@ -1,6 +1,6 @@
 let data = [
     {
-        "funcao": "Desenvolvedor Backend PHP",
+        "funcao": "Desenvolvedor Back-end PHP",
         "modalidade": "Tempo Integral",
         "companhia": "Maxmeio Tecnologia",
         "local": "Natal, RN",
@@ -11,7 +11,7 @@ let data = [
         "url_site_empresa": "https://www.maxmeio.com/",
     },
     {
-        "funcao": "Desenvolvedor Backend PHP",
+        "funcao": "Desenvolvedor Back-end PHP",
         "modalidade": "Meio Período",
         "companhia": "InoDev Tecnologia",
         "local": "Natal, RN",
@@ -21,7 +21,7 @@ let data = [
         "path_img_empresa": "./assets/img/empresas/inodev_empresa.jpg",
     },
     {
-        "funcao": "Desenvolvedor Backend PHP",
+        "funcao": "Desenvolvedor Back-end PHP",
         "modalidade": "Meio Período",
         "companhia": "Metrópole Digital / Sesap-RN",
         "local": "Natal, RN",
