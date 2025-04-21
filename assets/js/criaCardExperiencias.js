@@ -6,7 +6,7 @@ let data = [
         "local": "Natal, RN",
         "modalidade_trabalho": "Presencial",
         "data_inicio": "Agosto de 2024",
-        "data_fim": "atualmente",
+        "data_fim": "Março de 2025",
         "path_img_empresa": "./assets/img/empresas/maxmeio_tecnologia_logo.jpg",
         "url_site_empresa": "https://www.maxmeio.com/",
     },
