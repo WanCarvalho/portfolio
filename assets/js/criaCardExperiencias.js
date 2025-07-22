@@ -1,5 +1,16 @@
 let data = [
     {
+        "funcao": "Analista Desenvolvedor",
+        "modalidade": "Tempo Integral",
+        "companhia": "ESIG Software e Consultoria",
+        "local": "Natal, RN",
+        "modalidade_trabalho": "Híbrido",
+        "data_inicio": "Abril de 2025",
+        "data_fim": "Atualmente",
+        "path_img_empresa": "./assets/img/empresas/logo-esig.svg",
+        "url_site_empresa": "https://site.esig.com.br/",
+    },
+    {
         "funcao": "Desenvolvedor Back-end PHP",
         "modalidade": "Tempo Integral",
         "companhia": "Maxmeio Tecnologia",
