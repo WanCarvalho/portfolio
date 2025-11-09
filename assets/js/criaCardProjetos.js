@@ -7,11 +7,12 @@ let dataProjetos = [
         "imagem": "./assets/img/sost.png"
     },
     {
-        "titulo": "Todo List",
-        "descricao": "Lista de tarefas implementada com VueJs.",
-        "companhia": "Projeto Pessoal",
-        "tecnologias": ["VueJs", "JavaScript", "CSS", "HTML"],
-        "imagem": "./assets/img/todo-vuejs.png"
+        "titulo": "Informe RN Blog",
+        "descricao": "Blog de notícias desenvolvido sob medida.",
+        "companhia": "Projeto Freelancer",
+        "tecnologias": ["Laravel", "FilamentPHP", "PostgreSQL"],
+        "imagem": "./assets/img/informern.png",
+        "link": "https://informern.com.br/"
     },
     {
         "titulo": "Tindog App",
